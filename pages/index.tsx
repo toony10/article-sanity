@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import NavBar from "../components/NavBar";
 
 const Home: NextPage = () => {
   return (
@@ -9,8 +10,6 @@ const Home: NextPage = () => {
         <title>Article</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <h1>LOL ya 3am</h1>
     </div>
   );
 };
