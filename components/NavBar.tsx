@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className='flex justify-between max-w-7xl mx-auto'>
       <div className='flex items-center space-x-5'>
         <Link href='/'>
-          <Image src={LogoSrc} alt='lol' className='w-44 object-contain' />
+          <Image src={LogoSrc} alt='LOL' className='w-44 object-contain' />
         </Link>
         <ul className='hidden md:inline-flex items-center space-x-5'>
           <li className='cursor-pointer'>About</li>
