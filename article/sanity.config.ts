@@ -1,7 +1,7 @@
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
-import {defineConfig} from 'sanity'
+import {defineConfig} from 'sanity/lib/exports'
 import {vercelDeployTool} from 'sanity-plugin-vercel-deploy'
 
 export default defineConfig({
