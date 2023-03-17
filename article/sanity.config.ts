@@ -11,7 +11,13 @@ export default defineConfig({
   projectId: 'i6m9lz8j',
   dataset: 'production',
 
-  plugins: [deskTool(), visionTool(), vercelDeployTool()],
+  plugins: [
+    deskTool(),
+    visionTool({
+      defaultApiVersion: '2021-03-25',
+    }),
+    vercelDeployTool(),
+  ],
 
   schema: {
     types: schemaTypes,
