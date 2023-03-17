@@ -6,6 +6,7 @@
 .pnp.js
 
 article/node_modules
+.vercel
 
 # testing
 /coverage
@@ -36,3 +37,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
