@@ -64,7 +64,9 @@ const post = ({ post }: Props) => {
             alt='author'
             className='h-10 w-10 rounded-full'
           />
-          <p className='font-extralight text-sm'>
+          <p
+            className='font-extralight text-sm'
+            suppressHydrationWarning={true}>
             by <span className='font-semibold'>{post.author.name}</span> - at{" "}
             {new Date(post._createdAt).toLocaleString()}
           </p>
