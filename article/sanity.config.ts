@@ -1,5 +1,5 @@
 import {deskTool} from 'sanity/desk'
-import {visionTool} from '@sanity/vision'
+// import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import {defineConfig} from 'sanity/lib/exports'
 import {vercelDeployTool} from 'sanity-plugin-vercel-deploy'
@@ -11,7 +11,7 @@ export default defineConfig({
   projectId: 'i6m9lz8j',
   dataset: 'production',
 
-  plugins: [deskTool(), visionTool(), vercelDeployTool()],
+  plugins: [deskTool(), vercelDeployTool()],
 
   schema: {
     types: schemaTypes,
